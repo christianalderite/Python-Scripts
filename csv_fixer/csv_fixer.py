@@ -20,3 +20,5 @@ with open(filename, 'r', newline='') as csvFile, tempfile:
         writer.writerow(row)
 
 shutil.move(tempfile.name, new_filename)
+
+
